@@ -227,7 +227,7 @@ const CONTENT = {
   // ----------------------------------------------------------
   qLabels: {
     A:             'Did you come up with a specific idea about how the invention should work?',
-    A_YES_TIMING:  'When did you come up with this idea?',
+    A_YES_TIMING:  'Did this idea come to you during building or testing, or during discussions and planning?',
     A_NO_CHAR:     'What best describes your involvement with the project?',
     B:             'Could you describe your idea in specific terms?',
     B_EARLY:       'Could you describe your idea in specific terms?',
@@ -273,13 +273,13 @@ const CONTENT = {
     A_YES_TIMING: {
       progress: 1,
       label: 'Timing of your idea',
-      q: 'When did you come up with this idea — was it during the early stages when the approach to the invention was still being figured out, or during the later stages when the team was focused on building and testing something already designed?',
+      q: 'Did this idea come to you while you were actively trying to build or test something — rather than during discussions or planning about how the invention should work?',
       sub: null,
       type: 'options',
       options: [
-        { text: 'During the early stages — the approach was still being worked out', next: 'B_EARLY' },
-        { text: 'During the building or testing phase', next: 'B_RTP' },
-        { text: 'I\'m not sure', next: 'B' },
+        { text: 'Yes — it came to me during building or testing', next: 'B_RTP' },
+        { text: 'No — it came during discussions or planning', next: 'B_EARLY' },
+        { text: 'I\'m not sure', next: 'B_EARLY' },
       ],
     },
 
