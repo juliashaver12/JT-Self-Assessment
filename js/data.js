@@ -124,7 +124,7 @@ const CONTENT = {
       heading: 'Before You Begin',
       subheading: 'Finding The Patent',
       intro: 'If you know a patent has already been granted, or that an application is pending, you may want to locate it before going further. You can search by inventor names, your institution\'s name, or keywords related to the invention.',
-      claimsNote: 'Once you find it, look at the <strong>claims</strong> section — this is where the inventive idea is legally defined. The claims tell you exactly what the patent protects. You may want to use them as a reference as you work through this interview to think about how your specific contribution maps onto what is claimed.',
+      claimsNote: 'Once you find it, look at the <strong>claims</strong> section — this is where the inventive idea is legally defined. The claims are numbered and appear at the end of the patent document, after the abstract, background, and detailed description sections. They tell you exactly what the patent protects. You may want to use them as a reference as you work through this interview to think about how your specific contribution maps onto what is claimed.',
       notRequired: 'Finding the patent is not required to complete this interview. If you cannot locate it, you can still proceed.',
       pendingWarning: '<strong>Note on pending applications:</strong> Claims in a pending application are often broader and may change significantly before the patent is granted. What is ultimately protected may look different from what was originally filed.',
       links: [

@@ -154,8 +154,8 @@ function renderGettingStarted(page) {
       <div class="gs-subheading">${gs.subheading}</div>
       <div class="body-text">${gs.intro}</div>
       <div class="body-text-muted">${gs.claimsNote}</div>
-      ${linksHtml}
       <div class="tip-block">${gs.notRequired}</div>
+      ${linksHtml}
       <div class="flag-card" style="margin-top:0">
         <div class="flag-body">${gs.pendingWarning}</div>
       </div>
